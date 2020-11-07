@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./image/message-icon.png">
     <link rel="stylesheet" href="css/styles.css"/>
     <title>Contact Form</title>
     
@@ -12,8 +13,8 @@
         <h2>Contact</h2>
         <input type="text" name="Name" placeholder="Name" required>
         <input type="email" name="Email" placeholder="E-mail" required>
-        <input type="text" name="Phone Number" placeholder="Phone Number (optional)">
-        <textarea name="Message" placeholder="Type your message here"></textarea>
+        <input type="text" name="Phone Number" placeholder="Phone Number (optional)" pattern="[0-9]+">
+        <textarea name="Message" placeholder="Type your message here" required></textarea>
         <button type="submit" id="button">SEND</button> 
 
     </form>

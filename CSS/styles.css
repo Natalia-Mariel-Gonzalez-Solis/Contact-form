@@ -1,3 +1,7 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
   background-image: url(../image/beach.jpg);
   background-size: 100vw 100vh;
