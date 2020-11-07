@@ -29,6 +29,7 @@ h2 {
   margin: 0;
   font-size: 30px;
   margin-bottom: 20px;
+  letter-spacing: 1px;
 }
 
 input,
@@ -50,6 +51,7 @@ textarea {
 #button {
   background: linear-gradient(90deg, #8360c3 0%, #2ebf91 100%);
   color: white;
+  letter-spacing: 1px;
   padding: 20px;
   border-radius: 20px;
   margin-bottom: 1rem;
